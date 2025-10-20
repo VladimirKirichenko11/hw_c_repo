@@ -1,1 +1,1 @@
-# hw_c_repo
+# repo for c homeworks
