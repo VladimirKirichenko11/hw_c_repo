@@ -8,7 +8,7 @@ int main()
 	printf("Enter second number: ");
 	scanf_s("%d", &b);
 	int max, min;
-	// Выбор большего числа в качестве делимого, меньшего - делителя
+	// Choosing a larger number a divinded, smaller - as divisor
 	if (abs(a) >= abs(b))
 		max = a, min = b;
 	else
@@ -18,7 +18,7 @@ int main()
 
 		return 1;
 	}
-	// Если вводятся числа с разными знаками
+	// If number with different signs are entered
 	if ((a > 0 && b < 0) || (b > 0 && a < 0)) {
 		while (abs(max) - abs(min) >= 0) {
 			max = -(abs(max) - abs(min));
