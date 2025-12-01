@@ -35,3 +35,4 @@ char peek(CharStack* s) {
         return s->data[s->top];
     }
     return '\0';
+}
