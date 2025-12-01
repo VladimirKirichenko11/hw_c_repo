@@ -71,9 +71,9 @@ int main() {
     char str_2[] = "3 + 1 * 4";
     char result[100];
     infixToPostfix(str_1, result);
-    printf("'%s' -> '%s'\n", str_1, result);
+    printf("%s -> %s\n", str_1, result);
     infixToPostfix(str_2, result);
-    printf("'%s' -> '%s'\n", str_2, result);
+    printf("%s -> %s\n", str_2, result);
 
     return 0;
 }
