@@ -19,7 +19,7 @@ int checkBalance(char* str) {
 	CharStack stack;
 	initStack(&stack); // Инициализируем стек
 	// Проходимся по строке
-	for (int i = 0; i < strlen(str); i++) {
+	for (size_t i = 0; i < strlen(str); i++) {
 		if (str[i] == '(' || str[i] == '[' || str[i] == '{')
 			push(&stack, str[i]); // Кладём открывающую скобку в стек
 		else if (str[i] == ')' || str[i] == ']' || str[i] == '}') {
@@ -46,4 +46,3 @@ int main() {
 
 	return 0;
 }
-
