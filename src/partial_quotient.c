@@ -32,7 +32,7 @@ int main()
 		}
 	}
 	printf("Quotient = %d\n", quot);
-	printf("Remainder = %d\n", max);
+	printf("Remainder = %d\n", abs(max));
 
 	return 0;
 }
